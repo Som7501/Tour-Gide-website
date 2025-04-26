@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: grid;
+    background-color: #f3f3f3;
+}
+/*navbar*/
+.navbar{
+    height: 80px;
+    width: 1521px;
+    background-color: white;
+    color: rgb(150, 145, 145);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navbar p{
+    color: black;
+}
+.logo{
+    height: 80px;
+    width: 100px;
+    background-image: url(images/Explore\ bengal.png);
+    background-size: cover;
+}
+.country,.lang{
+    display: flex;
+    justify-content: left;
+}
+.mytrips:hover,.home:hover{
+    background-color: #f3f3f3;
+
+}
+select{
+    height: 18px;
+    width: 70px;
+    margin-left: 4px;
+}
+.register{
+    border: 1.5px solid blue;
+    height: 30px;
+    width: 150px;
+    background-color: white;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 5px;
+}
+.register a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav_search{
+    display: flex;
+    background-color: orange;
+    width: 500px;
+    height: 40px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+    border: 0.5px solid black;
+}
+.search_select{
+    background-color: #f3f3f3;
+    height: 40px;
+    width: 80px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border:none;
+    margin-left: 0;
+
+}
+.search_input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search_icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color: #00f7ff;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: black;
+}
+.nav_search:hover{
+    border: 2px solid #00d9ff;
+}
+/*Hero Section*/
+.hero{
+    min-height: 00px;
+    width: 1521px;
+    background-size: cover;
+    background-color: #f3f3f3;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 0px;
+}
+.imgSlises{
+    height: 500px;
+    width: 100%;
+    
+}
+
+/*Main Dertails*/
+.redmtpkg{
+    height: 1200px;
+    width: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;   
+}
+#pkg{
+    min-height: 7vh;
+    max-width: 10hv;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.pkg1{
+    height: 250px;
+    width: 350px;
+    margin-left: 25px;
+    margin-top: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    transition: transform 0.2s ease;
+}
+.pkg1:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 8px 0 rgba(84, 208, 239, 0.903), 0 6px 20px 0 rgba(84, 208, 239, 0.903);
+  }
+.box_img{
+    height: 200px;
+    width: 100%;
+    background-repeat: no-repeat ;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.pkg1 i{
+    margin-left: 320px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.pkg1 h3{
+    width: 150px;
+    margin-top: 10px;
+   margin-left: 10px;
+    font-size: 20px;
+}
+.redmtpkg a{
+    text-decoration: none;
+    color: black;
+}
+/*footer*/
+.footer{
+    height: 500px;
+    width: 1521px;
+    background-color: #eef6f7;
+    margin-top: 50px;
+    display: grid;
+    align-items: center;
+}
+.footPan1{
+    height: 240px;
+    width: 900px;
+    background-color: #eef6f7;
+    padding: 15px;
+    margin-left: 290px;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    border-bottom: 0.2px solid #656565;
+}
+.footPan1, .footPan2 p{
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+ul{
+    margin-top: 30px;
+}
+ul a{
+    display: block;
+    font-size: 0.8rem;
+    margin-top: 10px;
+    color: #656565;
+}
+a:hover{
+    cursor: pointer;
+}
+.footPan2{
+    width: 900px;
+    background-color: #eef6f7;
+    padding: 15px;
+    margin-left: 290px;
+    display: flex;
+    justify-content: space-between;
+}
+.footPan2 input{
+    height: 60px;
+    width: 400px;
+    font-size: 1.3rem;
+}
